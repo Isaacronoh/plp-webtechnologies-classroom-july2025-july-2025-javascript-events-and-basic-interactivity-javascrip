@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wajir EAST TVC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="themeToggle">Dark Mode</button>
+    <h1>WAJIR EAST TVC </h1>
+    <p>Wajir East TVC is a technical institution based in Waqberi, Wajir County, Kenya. It was established in 2023 and has since become a popular technical institution in the region. The institution offers various technical courses, 
+    including electrical engineering, mechanical engineering, and information technology. Wajir East TVC is committed to providing quality education and training to its students, equipping them with the skills and knowledge needed to succeed in their careers.</p>
+
+    <h2>join us</h2>
+    <p>Fill the form below</p>
+
+   <form id="enrollForm" action="">
+  <label for="name">NAME :</label>
+  <input type="text" id="name">
+  <small class="error" id="nameError"></small>
+  <br><br>
+
+  <label for="email">EMAIL :</label>
+  <input type="email" id="email">
+  <small class="error" id="emailError"></small>
+  <br><br>
+
+  <label for="dob">DOB :</label>
+  <input type="date" id="dob">
+  <small class="error" id="dobError"></small>
+  <br><br>
+
+  <label for="course">Course enrolled :</label>
+  <select id="course" name="course">
+    <option value="">--Select--</option>
+    <option value="ICT">ICT</option>
+    <option value="ELECTRICAL">ELECTRICAL</option>
+    <option value="HRM">HRM</option>
+  </select>
+  <small class="error" id="courseError"></small>
+  <br><br>
+
+  <label for="password">Enter Password :</label>
+  <input type="password" id="password">
+  <small class="error" id="passwordError"></small>
+  <br><br>
+
+  <label for="confirmPassword">Confirm Password :</label>
+  <input type="password" id="confirmPassword">
+  <small class="error" id="confirmError"></small>
+  <br><br>
+
+  <button type="submit">SUBMIT</button>
+  <p id="successMsg" class="success"></p>
+</form>
+
+
+
+  <script src="script.js" defer></script>
+</body>
+</html>
